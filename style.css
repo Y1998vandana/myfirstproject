@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    background-color: rgb(57, 231, 231);
+    margin: 20px;
+    padding: 20px;
+}
+
+.navbarcontainer{
+     display: flex;
+}
+
+li{
+    float: left;
+    display: inline;
+}
+li a{
+    padding: 10px;
+}
+
+li input{
+   
+    text-align: center;
+}
+
+main{
+    margin: 20px;
+    padding: 20px;
+    grid-auto-flow: column;
+}
+
+main img{
+    width: 176px;
+}
+
+footer{
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(243, 221, 195);
+}
